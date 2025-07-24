@@ -23,7 +23,7 @@ public class MobileBankApiTestV1 {
                 .header("content-type", "application/json; charset=UTF-8")
                 .body("", hasSize(3))
                 .body("[0].id", equalTo(1))
-                .body("[0].currency", equalTo("RUB"))
+                .body("[0].currency", equalTo("RUR"))
                 .body("[1].balance", greaterThan(0))
                 .body(matchesJsonSchemaInClasspath("accounts.schema.json"));
     }
