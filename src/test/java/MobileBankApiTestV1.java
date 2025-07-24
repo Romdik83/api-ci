@@ -19,7 +19,7 @@ public class MobileBankApiTestV1 {
                 .get("/demo/accounts")
                 // Проверки
                 .then()
-                .statusCode(200)
+                .statusCode(210)
                 .header("content-type", "application/json; charset=UTF-8")
                 .body("", hasSize(3))
                 .body("[0].id", equalTo(0))
