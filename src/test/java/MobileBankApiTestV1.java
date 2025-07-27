@@ -7,7 +7,6 @@ import static org.hamcrest.Matchers.*;
 public class MobileBankApiTestV1 {
 
     @Test
-
     void shouldReturnAccounts() {
 
         // Given - When - Then
