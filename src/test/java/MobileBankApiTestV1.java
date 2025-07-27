@@ -8,7 +8,6 @@ public class MobileBankApiTestV1 {
 
     @Test
     void shouldReturnAccounts() {
-
         // Given - When - Then
         // Предусловия
         given()
